@@ -27,5 +27,61 @@ for (let i = 0; i < 10; i++) {
 console.log(contarHasta10_2);
 
 //11.
-let postl = 0;
+let postI = 0;
 let postJ = 0;
+for (let i = 0; i <=10; i++) {
+postI += postJ++;
+}
+console.log(postI);
+
+//12.
+let sumaPares = 0;
+for (let i = 0; i < 10; i++) {
+    if (i % 2 === 0) { 
+        sumaPares +=i;
+    }
+}
+console.log(sumaPares);
+
+//13.VARIABLES
+let variableValorNumerico = 0;
+//14.
+const MiNombre = "Jose";
+//15.
+const MiNumeroFav = 11;
+//16.
+const booleanoOr = booleano1 || booleano2;
+//17.
+const booleanoMix1 = (booleano1 && (TAU/2 === PI) || variableValorNumerico >= MiNumeroFav); 
+//18.
+let seisNoEsNueve = 6 !== 9;
+//19.
+let booleanoMix2 = (variableValorNumerico > 0) || (variableValorNumerico < -(MiNumeroFav * TAU));
+//20.OPERADORES
+const valorSuma = MiNumeroFav + variableValorNumerico;
+//21.
+const valorResta = MiNumeroFav - variableValorNumerico;
+//22.
+const valorMultiplicacion = MiNumeroFav * variableValorNumerico;
+//23.
+const valorDivision = MiNumeroFav / variableValorNumerico;
+//24.
+let contarHasta10 = 0; 
+    for (let i = 0; i < 10; i++) {
+        while (contarHasta10 < 10) {
+            console.log(contarHasta10);
+}
+    }
+//25.
+let preI = 0;
+let preJ = 0;   
+     for (let i = 0; i <=10; i++) {
+        preI += ++preJ;
+}
+//26.
+let sumaImpares = 0;
+for (let i = 0; i < 10; i++) {
+    if (i % 2 !== 0) {
+        sumaImpares +=i;
+}
+}
